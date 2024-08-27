@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarot Card Drawing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Tarot Card Drawing</h1>
+    <div id="tarot-app">
+        <label for="spread">Choose a Tarot Spread:</label>
+        <select id="spread">
+            <option value="1card">One Card</option>
+            <option value="3card">Three Cards</option>
+            <option value="5card">Five Cards</option>
+            <option value="celtic">Celtic Cross</option>
+        </select>
+        <button id="draw-button">Draw Cards</button>
+        <div id="result"></div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

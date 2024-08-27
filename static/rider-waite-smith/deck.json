@@ -1,0 +1,9 @@
+{
+  "name": "Rider-Waite-Smith cards",
+  "shortname": "rider-waite-smith",
+  "label": "Rider-Waite-Smith",
+  "type": "tarot",
+  "global": true,
+  "guilds": [],
+  "cards": {}
+}
