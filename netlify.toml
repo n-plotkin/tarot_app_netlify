@@ -1,9 +1,6 @@
 [build]
   functions = "netlify/functions"
   publish = "static"
-
-[functions]
-  python_version = "3.8"
-
+  
 [functions."draw_cards"]
   included_files = ["decks/tarot/default.json", "static/rider-waite-smith/*"]
